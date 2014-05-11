@@ -1,0 +1,20 @@
+{
+  "name": "node-webkitAppLauncherTests",
+  "version": "0.0.1",
+  "description": "Jasmine tests for the wrapper around the website app.",
+  "main": "SpecRunner.html",
+  "node-main": "background.js",
+  "scripts": {
+    "test": "../node_modules/node-webkit/node-webkit.app/Contents/MacOS/node-webkit ."
+  },
+  "keywords": [
+    "node-webkit",
+    "wrapper"
+  ],
+  "author": "James Mortensen",
+  "license": "MIT License",
+  "devDependencies": {
+    "gaze": "0.6.0",
+    "cheerio": "^0.15.0"
+  }
+}
