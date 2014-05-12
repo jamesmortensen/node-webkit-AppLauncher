@@ -63,7 +63,7 @@ On Windows and Ubuntu, you'll need to instead run the node-webkit binary and pas
 
 ## Configuration
 
-By default, the app loads up the [http://example.com](http://example.com) website, which is reserved for demonstrations and examples, without requiring any permission for use. To configure this to load another app, edit the config.json file to refer to your target application. The following properties are supported:
+By default, the app loads up the [http://example.com](http://example.com) website, which is reserved for demonstrations and examples, without requiring any permission for use. To configure this to load another app, edit the **config.json**file to refer to your target application. The following properties are supported:
 
 - app_name: The name of the application to display in the main panel.
 - logo_href: A link to the website or Web application logo.
