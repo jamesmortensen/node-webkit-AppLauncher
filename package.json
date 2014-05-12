@@ -1,5 +1,5 @@
 {
-  "name": "node-webkitAppLauncher",
+  "name": "node-webkit-AppLauncher",
   "version": "0.0.1",
   "description": "This is a node-webkit wrapper around a Web app.",
   "main": "app/index.html",
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "node_modules/node-webkit/node-webkit.app/Contents/MacOS/node-webkit tests",
-    "start": "node_modules/node-webkit/node-webkit.app/Contents/MacOS/node-webkit ."
+    "start": "node_modules/node-webkit/node-webkit.app/Contents/MacOS/node-webkit .",
+    "postinstall": ""
   },
   "keywords": [
     "node-webkit",
@@ -19,5 +20,9 @@
   "license": "MIT License",
   "dependencies": {
     "mustache": "^0.8.1"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.0",
+    "progress": "^1.1.5"
   }
 }

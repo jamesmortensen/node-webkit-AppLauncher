@@ -1,5 +1,5 @@
 {
-  "name": "node-webkitAppLauncherTests",
+  "name": "node-webkit-AppLauncherTests",
   "version": "0.0.1",
   "description": "Jasmine tests for the wrapper around the website app.",
   "main": "SpecRunner.html",
