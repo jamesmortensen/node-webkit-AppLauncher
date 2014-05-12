@@ -1,0 +1,23 @@
+{
+  "name": "node-webkitAppLauncher",
+  "version": "0.0.1",
+  "description": "This is a node-webkit wrapper around a Web app.",
+  "main": "app/index.html",
+  "node-main": "app.js",
+  "window": {
+    "toolbar": true
+  },
+  "scripts": {
+    "test": "node_modules/node-webkit/node-webkit.app/Contents/MacOS/node-webkit tests",
+    "start": "node_modules/node-webkit/node-webkit.app/Contents/MacOS/node-webkit ."
+  },
+  "keywords": [
+    "node-webkit",
+    "wrapper"
+  ],
+  "author": "James Mortensen",
+  "license": "MIT License",
+  "dependencies": {
+    "mustache": "^0.8.1"
+  }
+}

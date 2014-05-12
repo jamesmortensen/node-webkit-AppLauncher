@@ -1,0 +1,7 @@
+{
+	"launchPanel": {
+		"app_name": "node-webkit app launcher",
+		"logo_href": "images/nwlauncher-logo-transparent.png",
+		"website_href": "http://www.example.com/"
+	}
+}
