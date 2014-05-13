@@ -10,7 +10,7 @@
   "scripts": {
     "test": "nodewebkit tests",
     "start": "nodewebkit",
-    "postinstall": ""
+    "postinstall": "cd tests && npm install"
   },
   "keywords": [
     "node-webkit",

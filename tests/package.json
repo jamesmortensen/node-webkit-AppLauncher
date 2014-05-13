@@ -14,7 +14,7 @@
   "author": "James Mortensen",
   "license": "MIT License",
   "devDependencies": {
-    "gaze": "0.6.0",
+    "gaze": "0.5.1",
     "cheerio": "^0.15.0"
   }
 }
