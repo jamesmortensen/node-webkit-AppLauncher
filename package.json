@@ -8,8 +8,8 @@
     "toolbar": true
   },
   "scripts": {
-    "test": "node_modules/node-webkit/node-webkit.app/Contents/MacOS/node-webkit tests",
-    "start": "node_modules/node-webkit/node-webkit.app/Contents/MacOS/node-webkit .",
+    "test": "nodewebkit tests",
+    "start": "nodewebkit",
     "postinstall": ""
   },
   "keywords": [
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "mkdirp": "^0.5.0",
-    "progress": "^1.1.5"
+    "progress": "^1.1.5",
+    "nodewebkit": "0.9.2-5"
   }
 }

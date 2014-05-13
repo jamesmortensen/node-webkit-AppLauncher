@@ -5,7 +5,7 @@
   "main": "SpecRunner.html",
   "node-main": "background.js",
   "scripts": {
-    "test": "../node_modules/node-webkit/node-webkit.app/Contents/MacOS/node-webkit ."
+    "test": "../node_modules/.bin/nodewebkit ."
   },
   "keywords": [
     "node-webkit",
