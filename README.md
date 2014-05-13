@@ -10,56 +10,30 @@ This is mostly a basic demonstration of the powers of both node-webkit, as well 
 You'll of course need Node.js. If you don't have it already, [get it here](http://nodejs.org/download/).
 
 
-### MacOS
-
-You'll have the easiest time building and running on MacOS.  Just simply run the installer.
-
-```
-$ ./install.sh
-```
-
-Now, skip to the "Running node-webkit app" section.
-
-### Windows and Linux
-
-#### Obtain the node-webkit runtime
-
-- Download the [node-webkit](https://github.com/rogerwang/node-webkit#downloads) binary for your platform.
-- Extract the ZIP archive.
-
 #### Install dependencies
 
 
 Run the following commands from the app root to install node_modules dependencies:
 
 ```
-$ npm install && cd tests && npm install
+$ npm install
 ```
-
 
 ## Running node-webkit app
 
-To run the app on Mac OS, simply type the following from the app root:
+To run the app, simply type the following from the app root:
 
 ```
 $ npm start
 ```
 
-On other platforms, you'll need to configure this manually or run straight from the nodewebkit binary, where `.` is the "app" directory:
-
-```
-C>\path\to\nodewebkit .
-```
-
 ## Running the tests
 
-The tests use Jasmine, which runs in a node-webkit window so it has access to any Node.js API's and browser API's one might want to use in testing. To run the tests on Mac OS, run the following command from the app root:
+The tests use Jasmine, which runs in a node-webkit window so it has access to any Node.js API's and browser API's one might want to use in testing. To run the tests, run the following command from the app root:
 
 ```
 $ npm test
 ```
-
-On Windows and Ubuntu, you'll need to instead run the node-webkit binary and pass the tests folder in as an argument.
 
 ## Configuration
 
