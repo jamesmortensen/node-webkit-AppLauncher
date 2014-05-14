@@ -3,7 +3,8 @@
   *
   * Script loader to load scripts outside of the node-webkit context.
   *
-  * Usage: new Script({src:"../../path/to/file.js"}).load();
+  * @example
+  * new Script({src:"../../path/to/file.js"}).load();
   *
   * @constructor Creates an instance of Script.
   * @this {Script}

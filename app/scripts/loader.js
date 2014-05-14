@@ -1,3 +1,6 @@
+/**
+ * On pageload, load the lander page with the config.json logo, and set the click event to website_href.
+ */
 window.addEventListener("load", function() {
   
   var template = new TemplateLoader();
