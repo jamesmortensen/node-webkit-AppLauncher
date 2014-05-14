@@ -19,7 +19,8 @@
   "author": "James Mortensen",
   "license": "MIT License",
   "dependencies": {
-    "mustache": "^0.8.1"
+    "mustache": "^0.8.1",
+    "log": "^1.4.0"
   },
   "devDependencies": {
     "mkdirp": "^0.5.0",
