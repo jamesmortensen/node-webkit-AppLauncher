@@ -20,5 +20,5 @@ window.addEventListener("load", function() {
   document.getElementsByTagName("html")[0].appendChild(body);
 
   nodeWebkitWebsiteLauncher = new NodeWebkitWebsiteLauncher();
-  document.querySelector(".header_wrapper img").onclick = function() { nodeWebkitWebsiteLauncher.runLoginAndLaunch(); };
+  document.querySelector(".header_wrapper #app_logo").onclick = function() { nodeWebkitWebsiteLauncher.runLoginAndLaunch(); };
 },false);
